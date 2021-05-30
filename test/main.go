@@ -9,5 +9,8 @@ import (
 func main() {
 	s := stack.Stack{}
 	s.Push("Hello")
+	s.Push("World")
+	s.Pop()
 	fmt.Println(s.GetStack())
+	fmt.Println("stack lenght:", len(s.GetStack()))
 }
