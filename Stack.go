@@ -16,3 +16,7 @@ func (s *Stack) Push(value string) {
 func (s *Stack) Pop() {
 	s.stack = s.stack[:len(s.stack)-1]
 }
+
+func (s *Stack) Init() {
+	s.stack = []string{}
+}

@@ -13,4 +13,6 @@ func main() {
 	s.Pop()
 	fmt.Println(s.GetStack())
 	fmt.Println("stack lenght:", len(s.GetStack()))
+	s.Init()
+	fmt.Println(s.GetStack())
 }
